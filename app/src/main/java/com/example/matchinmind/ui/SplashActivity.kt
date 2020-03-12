@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.matchinmind.MainActivity
 import com.example.matchinmind.R
 import com.example.matchinmind.util.changeStatusColor
-import com.example.matchinmind.util.extStartActivty
+import com.example.matchinmind.util.extStartActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
 
         object : CountDownTimer(3000, 1000) {
             override fun onFinish() {
-                this@SplashActivity extStartActivty MainActivity::class.java
+                this@SplashActivity.extStartActivity(MainActivity::class.java)
             }
 
             override fun onTick(millisUntilFinished: Long) {

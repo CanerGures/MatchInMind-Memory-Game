@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
     package="com.example.matchinmind">
 
     <application
@@ -21,8 +22,9 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape" />
-
-
+        <activity
+            android:name=".ui.GameActivity"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>
